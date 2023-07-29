@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "types": ["jest"],
+    "target": "esnext",
+    "outDir": "dist",
+    "rootDir": "./src",
+    "strict": true,
+    "module": "es2020", // Set the module output to ES modules
+    "moduleResolution": "node", // Use Node.js-style module resolution
+    "baseUrl": "./",
+    "paths": {
+      "*": ["src/*"]
+    }
+  },
+  
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}
