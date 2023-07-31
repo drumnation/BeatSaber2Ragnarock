@@ -5,7 +5,7 @@
   "main": "dist/BeatSaber2Ragnarock.ts",
   "scripts": {
     "test": "jest --verbose=true --silent=false",
-    "convert": "node --experimental-specifier-resolution=node --loader ts-node/esm src/index.ts"
+    "start": "node --experimental-specifier-resolution=node --loader ts-node/esm src/index.ts"
   },
   "type": "module",
   "author": "Vou",

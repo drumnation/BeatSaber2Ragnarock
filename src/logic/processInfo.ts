@@ -14,7 +14,6 @@ export async function loadInfoFile(infoFileName: string): Promise<any> {
     }
 }
 
-
 export async function processAllSongs(info: any, dirPath: string) {
     for (let difficultyBeatmapSet of info._difficultyBeatmapSets) {
         for (let difficultyBeatmap of difficultyBeatmapSet._difficultyBeatmaps) {
