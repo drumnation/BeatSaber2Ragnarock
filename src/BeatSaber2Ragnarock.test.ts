@@ -3,7 +3,7 @@
 import { main } from './BeatSaber2Ragnarock';
 import * as fs from 'fs';
 import { promises as fsPromises } from 'fs';
-import { processSong } from './logic/processSong';
+import { processSong } from './library/processSong';
 import { Info, Note } from 'types';
 
 import { originalSongPath, setupBeforeEach, teardownAfterEach, tempInfoPath, tempSongPath } from './config/setupTests';

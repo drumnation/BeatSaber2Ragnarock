@@ -1,4 +1,4 @@
-import { processInfoFile } from './logic/processInfo';
+import { processInfoFile } from './library/processInfo';
 
 export async function main() {
     const infoFileName: string = process.argv[2];
