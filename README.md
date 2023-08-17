@@ -18,6 +18,6 @@ When you want to play a song in Ragnaröck, nobody mapped yet but you can find i
 * Open a command line and [navigate](https://www.computerhope.com/issues/chusedos.htm "How to use the Windows command line") to the directory where you saved the [BeatSaber2Ragnarock.js](BeatSaber2Ragnarock.js) script
 * Execute the [BeatSaber2Ragnarock.js](BeatSaber2Ragnarock.js) script with node and the info.dat of the song you want to convert as only argument
 ```
-> node BeatSaber2Ragnarock.js C:\Path\To\Your\info.dat
+> npm start C:\Path\To\Your\info.dat
 ```
 * Play and improve upon the map :metal:
